@@ -7,3 +7,8 @@
 *.sopcinfo
 *_generation.rpt
 db
+incremental_db
+output_files
+system_generation*.rpt
+qsys_output
+*.qws
