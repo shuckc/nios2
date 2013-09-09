@@ -1,3 +1,8 @@
 *.bak
 *.tcl~
 .qsys_edit
+*.bsf
+*.cmp
+*.html
+*.sopcinfo
+*_generation.rpt
