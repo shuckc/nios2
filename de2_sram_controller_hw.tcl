@@ -38,7 +38,7 @@ set_module_property ALLOW_GREYBOX_GENERATION false
 add_fileset QUARTUS_SYNTH QUARTUS_SYNTH "" ""
 set_fileset_property QUARTUS_SYNTH TOP_LEVEL de2_sram_controller
 set_fileset_property QUARTUS_SYNTH ENABLE_RELATIVE_INCLUDE_PATHS false
-add_fileset_file lab3.vhd VHDL PATH lab3.vhd TOP_LEVEL_FILE
+add_fileset_file de2_sram_controller.vhd VHDL PATH de2_sram_controller.vhd TOP_LEVEL_FILE
 
 
 # 

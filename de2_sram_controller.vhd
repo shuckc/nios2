@@ -2,6 +2,8 @@ library ieee;
 use ieee.std_logic_1164.all;
 entity de2_sram_controller is
 port (
+signal clock : in std_logic;
+signal reset : in std_logic;
 signal chipselect : in std_logic;
 signal write, read : in std_logic;
 signal address : in std_logic_vector(17 downto 0);
